@@ -4,19 +4,22 @@ h1 {font-weight: 50;
   flex-direction: column;
   text-align: center;
   background-color:#f9fcf766;font-family:sans-serif;
-letter-spacing: 5px; margin: 0;}
+  letter-spacing: 5px; margin: 0;}
 
- body{ padding: 0 20px;
-   margin: 0%;
+body{ 
+  padding: 0 20px;
+  margin: 0%;
  background-color: #e2bbb6; 
  }
-   nav{ 
-    width: 100%;height: 70px;background-color:white;margin-top: 15px;
-    max-width: 800px;;
-   }
 
+ nav{ 
+width: 100%;
+height: 70px;
+background-color:white;
+margin-top: 15px;
+max-width: 800px;;
 
-  ul:hover{color:white;}
+}
 
 * {margin: auto; padding: 0px;}
   
@@ -45,13 +48,20 @@ ul li a{
 
 button{font-size: 24px;
   font-family:sans-serif; font-weight: 700; 
-  transition: all; box-sizing: inherit
-  ; overflow: visible;border: 0; background-color:#f9fcf766;}
+  transition: all; box-sizing: inherit; 
+  overflow: visible;
+  border: 0; 
+  background-color:#f9fcf766;}
 
 
   main{
-    background:#f9fcf766 ;margin-top: 20px; border-radius: 10px;
+    background:#f9fcf766;
+    margin-top: 20px;
+    border-radius: 10px;
     font-family:sans-serif ;
-    padding: 5px 40px; font-size: larger;max-width: 800px;}  
+    padding: 5px 40px; font-size: larger;
+    max-width: 800px;
+    text-indent: 15px;
+  }  
   
   p{ padding: 3px;}

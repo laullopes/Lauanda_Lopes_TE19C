@@ -4,18 +4,19 @@ h1 {font-weight: 50;
     flex-direction: column;
     text-align: center;
     background-color:#f9fcf766;font-family:sans-serif;
-    letter-spacing: 5px; margin: 0;
+    letter-spacing: 5px; 
+    margin-top: auto;
 }
 
 body{ font-family: sans-serif;line-height: 1.5;background-color:#e2bbb6;width: auto;}
 
 nav{ width: 100%;height: 70px;background-color:white;margin-top: 15px;
-max-width: 800px;
+max-width: 800px;margin: auto;
 }
      
-* {margin: auto; padding: 0px;width: 98;}
+* {padding: 0px;width: 98;}
        
-ul{list-style-type: none;display: flex;
+ul{list-style-type: none;display: flex; 
 justify-content: center;word-spacing: 10px;}
      
 ul li { display: inline-block;line-height: 70px;}
@@ -30,9 +31,15 @@ ul li a {display: flex;
  }
 
  main{
-background:#f9fcf766 ;margin-top: 20px; border-radius: 10px;
-font-family:sans-serif ;
-padding: 5px 40px; font-size: larger;max-width: 800px;
+    background:#f9fcf766 ; 
+    border-radius: 10px;
+    font-family:sans-serif; 
+    height: 450px;
+    font-size: medium;max-width: 800px; background-size:300px, 200px;
+    margin: auto;
+    text-indent: 15px;
+    line-height: 20px;
+   
 }  
 
 p { margin: 2px;}
@@ -42,4 +49,13 @@ button{font-size: 24px;
     font-family:sans-serif; font-weight: 700; 
     transition: all; box-sizing: inherit
     ; overflow: visible;border: 0; background-color:#f9fcf766;
+}
+
+.pose{border-right-width: 300px; height: 400px; margin: 3cm; margin-top: 2%;}
+
+.Lau{width: 50%;}
+
+.TE{ 
+  padding-left: 750px;
+  margin-top: -445px;
 }
